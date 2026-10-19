@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AECM – Associação Esporte e Cultura em Movimento | Guará II, Brasília-DF</title>
+    <meta
+      name="description"
+      content="A AECM é uma associação sem fins lucrativos do Guará II (Brasília-DF) que promove esporte comunitário, oficinas de arte e cultura, espetáculos e a defesa de direitos sociais no DF e Entorno."
+    />
+    <meta name="keywords" content="AECM, associação, esporte, cultura, Guará II, Brasília, DF, ONG, oficinas de arte, futsal, torneios comunitários, direitos sociais, voluntariado" />
+    <link rel="canonical" href="https://aecm.com.br/" />
+    <meta name="theme-color" content="#f7f7f5" media="(prefers-color-scheme: light)" />
+    <meta name="theme-color" content="#0d0c0b" media="(prefers-color-scheme: dark)" />
+    <meta name="geo.region" content="BR-DF" />
+    <meta name="geo.placename" content="Guará II, Brasília" />
+
+    <meta property="og:type" content="website" />
+    <meta property="og:locale" content="pt_BR" />
+    <meta property="og:site_name" content="AECM" />
+    <meta property="og:url" content="https://aecm.com.br/" />
+    <meta property="og:title" content="AECM – Esporte e Cultura em Movimento" />
+    <meta property="og:description" content="Esporte comunitário, arte, cultura e defesa de direitos sociais no Guará II e em todo o DF." />
+    <meta name="twitter:card" content="summary" />
+
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,700;12..96,800&family=Inter:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Aplica o tema antes da renderização para evitar "flash" de cor -->
+    <script>
+      (function () {
+        try {
+          var saved = localStorage.getItem('aecm-theme');
+          var dark = saved ? saved === 'dark' : window.matchMedia('(prefers-color-scheme: dark)').matches;
+          document.documentElement.classList.toggle('dark', dark);
+        } catch (e) {}
+      })();
+    </script>
+
+    <!-- Schema.org: SEO local (Guará II / Brasília) -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "NGO",
+        "@id": "https://aecm.com.br/#organizacao",
+        "name": "Associação Esporte e Cultura em Movimento",
+        "legalName": "Associação Esporte e Cultura em Movimento",
+        "alternateName": "AECM",
+        "url": "https://aecm.com.br/",
+        "logo": "https://aecm.com.br/favicon.svg",
+        "description": "Associação sem fins lucrativos que promove esporte comunitário, ensino de arte e cultura, espetáculos e a defesa de direitos sociais no Distrito Federal.",
+        "taxID": "35.155.169/0001-03",
+        "foundingDate": "2019-10-10",
+        "nonprofitStatus": "Nonprofit",
+        "telephone": "+55-61-99694-2323",
+        "email": "contato.aecm@gmail.com",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "QE 28 Bloco A, 26, Loja 26",
+          "addressLocality": "Guará II, Brasília",
+          "addressRegion": "DF",
+          "postalCode": "71060-612",
+          "addressCountry": "BR"
+        },
+        "areaServed": [
+          { "@type": "City", "name": "Brasília" },
+          { "@type": "AdministrativeArea", "name": "Distrito Federal e Entorno" }
+        ],
+        "employee": {
+          "@type": "Person",
+          "name": "Pedro Terra de Farias",
+          "jobTitle": "Presidente"
+        },
+        "contactPoint": [
+          {
+            "@type": "ContactPoint",
+            "contactType": "customer support",
+            "telephone": "+55-61-99694-2323",
+            "email": "contato.aecm@gmail.com",
+            "availableLanguage": "Portuguese"
+          }
+        ],
+        "knowsAbout": [
+          "Defesa de direitos sociais",
+          "Esporte comunitário",
+          "Torneios de futebol, futsal e basquete",
+          "Ensino de arte e cultura",
+          "Produção de espetáculos cênicos"
+        ]
+      }
+    </script>
+  </head>
+  <body>
+    <noscript>
+      AECM – Associação Esporte e Cultura em Movimento. Guará II, Brasília-DF. WhatsApp (61) 99694-2323 · contato.aecm@gmail.com
+    </noscript>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
