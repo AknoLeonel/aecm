@@ -1,0 +1,3 @@
+Coloque aqui os PDFs de transparência (estatuto, atas, relatórios).
+Depois, informe o nome do arquivo no campo "file" do documento em src/data/institution.js
+(ex.: file: '/docs/estatuto-aecm.pdf'). Documentos sem arquivo aparecem como "Solicitar por e-mail".
